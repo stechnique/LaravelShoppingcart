@@ -40,12 +40,11 @@ class CartRowCollection extends Collection {
 			return $this->get($arg);
 		}
 
-		if($arg == strtolower($this->associatedModel))
+		if($arg == camel_case($this->associatedModel))
 		{
 			$modelInstance = $this->associatedModelNamespace ? $this->associatedModelNamespace . '\\' .$this->associatedModel : $this->associatedModel;
-			$model = new $modelInstance;
 
-			return $model->find($this->id);
+			return $modelInstance::find($this->id);
 		}
 
 		return null;
