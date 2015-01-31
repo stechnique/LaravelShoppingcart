@@ -258,7 +258,7 @@ foreach($content as $row)
 }
 ```
 
-The key to access the model is the same as the model name you associated (lowercase).
+The key to access the model is the same as the model name you associated (camelCase).
 The `associate()` method has a second optional parameter for specifying the model namespace.
 
 ## Exceptions
