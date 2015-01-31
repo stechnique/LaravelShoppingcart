@@ -1,8 +1,7 @@
 ## LaravelShoppingcart
-[![Build Status](https://travis-ci.org/Crinsane/LaravelShoppingcart.png?branch=master)](https://travis-ci.org/Crinsane/LaravelShoppingcart)
-[![Total Downloads](https://poser.pugx.org/gloudemans/shoppingcart/downloads.png)](https://packagist.org/packages/gloudemans/shoppingcart)
 
-A simple shoppingcart implementation for Laravel 4.
+A simple shoppingcart implementation for Laravel 4. Forked from Gloudesman/shoppingcart, he really did all the work and is the maintainer. I just needed a couple of quick fixes implemented so I forked it, but will not be updating or maintaining this :(
+[Here](https://github.com/Crinsane/LaravelShoppingcart) is the original.
 
 ## Installation
 
@@ -13,7 +12,7 @@ Install the package through [Composer](http://getcomposer.org/). Edit your proje
 ```php
 "require": {
 	"laravel/framework": "4.2.*",
-	"gloudemans/shoppingcart": "~1.2"
+	"stechnique/shoppingcart": "~1.2"
 }
 ```
 
@@ -22,7 +21,7 @@ Install the package through [Composer](http://getcomposer.org/). Edit your proje
 ```php
 "require": {
 	"laravel/framework": "5.0.*",
-	"gloudemans/shoppingcart": "dev-master"
+	"stechnique/shoppingcart": "dev-master"
 }
 ```
 
